@@ -9,15 +9,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "pysearcher",
+    name = "pysearchit",
     version = "0.0.1",
     author = "Bart",
     author_email = "",
     description = ("Tools to create search indexes from text."),
     license = "MID",
     keywords = "search text",
-    url = "http://packages.python.org/pysearcher",
-    packages=['pysearcher', 'tests'],
+    packages=['pysearchit', 'tests'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
