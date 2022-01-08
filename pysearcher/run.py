@@ -1,10 +1,10 @@
 import os.path
 import requests
 
-from download import download_wikipedia_abstracts
-from load import load_documents
-from search.timing import timing
-from search.index import Index
+from .download import download_wikipedia_abstracts
+from .load import load_documents
+from .timing import timing
+from .index import Index
 
 
 @timing
